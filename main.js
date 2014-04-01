@@ -1,8 +1,5 @@
 /* psuedo code:
 
-Fixed Header Img: This will keep the 'PIES + PETALS' image bar stuck to the top of the page at all times.
-When scrolling keep img fixed at top of page
-
 Modal Windows: This will hide the content in menu items and then content show when clicked
 Hide menu items content
 When clicking menu items show hidden content
@@ -16,6 +13,6 @@ When clicking on photo take to blog post
 
 */
 
-
-
-
+$('#toggleMenu').on('click', function() {
+    $('#menu ul').toggleClass('show');
+});

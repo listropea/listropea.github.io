@@ -3,47 +3,146 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>PIES + PETALS</title>
+    <title>PIES + PETALS BLOG</title>
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300|Josefin+Slab:400,300|Raleway+Dots' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="gallery.css">
 </head>
 
 <body>
+<header>
 
 <!-- BEGIN: Sticky Nav -->
-<header>
 
 <div id="nav_container">
     <div id="nav">
     <nav>
         <ul>
         <li><a href='#'>learn</a></li>
-        <li><a href="#">find</a></li>
+        <li><a href="#">locate</a></li>
         <li id="navImage"><a href="index.html"><img src="images/navimage.png"></a></li>
-        <li><a href="#">menu</a></li>
-        <li><a href="#">blog</a></li>
+        <li><a href="#">taste</a></li>
+        <li><a href="gallery.html">see</a></li>
         </ul>
     </nav>
 </div>
 </div>
+
 <!-- END: Sticky Nav -->
 
-<footer>
-<div id="logo"><img src="images/logo_black.png"></div>
+<div class="wrapper">
+    <div class="container">
 
-<div id="contact">
-    <h3>info@pies+petals.com<br>
-    @piesandpetals</h3>
+        <div id="four-columns" class="grid-container">
+            <ul class="rig columns-4">
+                <li>
+                    <img src="images/gallery1.jpg" />
+                    <h3>The Dream</h3>
+                    <p>Learn what the future of Pies + Petals looks like.</p>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery1.jpg" /></a>
+                    <h3>The Perfect Toppings</h3>
+                    <p>Every man needs a companion.</p>
+                </li>
+                <li>
+                    <img src="images/gallery1.jpg" />
+                    <h3>Image Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li>
+                    <img src="images/gallery1.jpg" />
+                    <h3>Image Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li>
+                    <img src="images/gallery1.jpg" />
+                    <h3>Image Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li>
+                    <img src="images/pri_006.jpg" />
+                    <h3>Image Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li>
+                    <img src="images/pri_007.jpg" />
+                    <h3>Image Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li>
+                    <img src="images/pri_008.jpg" />
+                    <h3>Image Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+            </ul>
+        </div>
+        <!--/#four-columns-->
+
+        <hr />
+
+                <div id="instagram">
+        <!-- SnapWidget -->
+            <iframe src="http://snapwidget.com/sc/?h=cGllc2FuZHBldGFsc3xpbnwyMDB8NHwzfHxub3w1fG5vbmV8fHllcw==&v=31314" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="yes" style="border:none; overflow:hidden; width:800px; height:200px"></iframe>
+            <h1><a href="http://instagram.com/listropea">#piesandpetals</a</h1>
+        </div>
+
 </div>
 
-<!--<embed src="07 I Can't Help Myself (Sugar Pie, Honey Bunch).m4a" auto loop="true">-->
+        <hr />
+
+<!--/.wrapper-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.grid-nav li a').on('click', function(event){
+        event.preventDefault();
+        $('.grid-container').fadeOut(500, function(){
+            $('#' + gridID).fadeIn(500);
+        });
+        var gridID = $(this).attr("data-id");
+
+        $('.grid-nav li a').removeClass("active");
+        $(this).addClass("active");
+    });
+});
+</script>
+
+<footer id="footer" class="footerMenu">
+
+    <ul>
+    <li>
+    <h3>stay in touch</h3>
+    info@piesandpetals.co
+    </li>
+
+    <li>
+    <img src="images/facebook.png" height="50" width="50">
+    <img src="images/twitter.png" height="50" width="50">
+    <img src="images/instagram.png" height="50" width="50">
+    </li>
+
+    <li>
+    <img id="logo" src="images/logo_black.png">
+    </li>
+
+    <li>
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <div id="mc_embed_signup">
+    <form action="http://piesandpetals.us8.list-manage.com/subscribe/post?u=9808cfc0623083c1c887a45b9&amp;id=855b95323f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <label for="mce-EMAIL">Do you love pie? Subscribe to our blog.</label>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_9808cfc0623083c1c887a45b9_855b95323f" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </form>
+    </div>
+    </li>
+    </ul>
 
 </footer>
-
-
-
-
-
+</footer>
 
 </body>
 </html>

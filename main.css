@@ -241,8 +241,7 @@ div.col {
     box-sizing: border-box;
     width: 75%;
     margin: 30px auto;
-    margin-bottom:20px;
-
+    margin-bottom:40px;
 }
 
 a {
@@ -259,6 +258,7 @@ a:hover {
     width: 30%;
     float: left;
     margin-right: 20px;
+    margin-bottom:25px;
 }
 
 #footerIcons {

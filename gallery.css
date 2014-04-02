@@ -23,10 +23,6 @@ header {
     height:100%;
 }
 
-p {
-    line-height: 1;
-}
-
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size:24pt;
@@ -40,6 +36,20 @@ h2 {
     font-family: 'Josefin Slab', serif;
     font-size:18pt;
     text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: .8;
+    font-weight: 800;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight:200;
 }
 
 hr {
@@ -107,17 +117,10 @@ nav li {
 
 /* FOOTER STYLES */
 
-#footer {
-    display: inline-block;
-    background-color:#F0F0F0;
-    height:150px;
-    width:100%;
-}
-
 footer {
     background-color:#F0F0F0;
     text-align: center;
-    color: white;
+    color: #000;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -132,13 +135,38 @@ footer {
 
 .footerMenu ul li {
     display: table-cell;
-    text-align: center;
+}
+
+#contact {
+    vertical-align: middle;
+    width: 33.3%;
+}
+
+.hover:hover {
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
+}
+
+img.hover:hover{
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
+}
+
+#logo {
+    text-align:center;
+    vertical-align: middle;
+    width:33.3%;
+}
+
+#signup {
+    vertical-align: middle;
+    width:33.3%;
 }
 
 #mc_embed_signup{
+padding-top:30px;
 padding: 3px;
 width: 150px;
-height: 12px;
 background-color: #f0f0f0;
 font-family: 'Josefin Slab', serif;
 text-transform: uppercase;
@@ -147,8 +175,11 @@ font-size: 9px;
 padding-left: 8px;
 }
 
-#logo {
-text-align:center;
+.button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    line-height: .8;
+    font-weight: 800;
 }
 
 /* ---IMAGE STYLES---*/
@@ -162,7 +193,7 @@ li {
 
 .wrapper {
     width: 100%;
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .container {

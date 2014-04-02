@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    background-color:#F0F0F0;
     margin:auto;
     height:100%;
     padding:0;
@@ -20,10 +21,6 @@ ul, ol {
 
 header {
     height:100%;
-}
-
-p {
-    line-height: 1;
 }
 
 h1 {
@@ -43,10 +40,24 @@ h2 {
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: .8;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 800;
+
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    font-weight: 200;
-
+    font-weight:200;
 }
 
 hr {
@@ -92,7 +103,7 @@ nav a {
 
 nav a:hover {
     color:#addfa6;
-    transition:;
+    transition: all 0.3s ease-out 0s;
 }
 
 nav ul {
@@ -106,7 +117,7 @@ nav li {
     vertical-align: text-bottom;
 }
 
-/* id Styles */
+/* ---ID STYLES--- */
 
 #wrap {
     margin:auto;
@@ -128,7 +139,7 @@ background-size: cover;
 #learn {
     margin:40px 40px 0px 40px;
     padding:40px;
-    background-color:#F0F0F0;
+    background-color:#fff;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -141,7 +152,7 @@ background-size: cover;
 #find {
     margin:40px 40px 0px 40px;
     padding:40px;
-    background-color:#F0F0F0;
+    background-color:#fff;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -154,7 +165,7 @@ background-size: cover;
 #menu {
     margin:40px 40px 0px 40px;
     padding:40px;
-    background-color:#F0F0F0;
+    background-color:#fff;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -164,12 +175,65 @@ background-size: cover;
     -webkit-box-sizing: border-box;
 }
 
+/* Styling for Learn */
+
+
+#photos {
+    display:inline-block;
+    float:right;
+    width:30%;
+    margin-top:-60px;
+    padding:20px;
+}
+
+/* Styling for Locate map and text */
+
+#map {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display:inline-block;
+    float:right;
+    width: 50%;
+    height:350px;
+}
+
+.textLeft {
+    display:inline-block;
+    margin-left: 20px;
+    padding-left: 20px;
+    width:33%;
+}
+
+/* Styling for Menu */
+
+div.menu {
+    height: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+}
+
+div.col {
+    float: left;
+    width: 33%;
+}
+
 /* FOOTER STYLES */
 
 footer {
     background-color:#F0F0F0;
     text-align: center;
-    color: white;
+    color: #000;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -184,12 +248,32 @@ footer {
 
 .footerMenu ul li {
     display: table-cell;
-    text-align: center;
+}
+
+#contact {
+    vertical-align: middle;
+    width: 33.3%;
+}
+
+.hover:hover {
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
+}
+
+img.hover:hover{
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
 }
 
 #logo {
-display: block;
-margin: auto;
+    text-align:center;
+    vertical-align: middle;
+    width:33.3%;
+}
+
+#signup {
+    vertical-align: middle;
+    width:33.3%;
 }
 
 #mc_embed_signup{
@@ -204,14 +288,11 @@ font-size: 9px;
 padding-left: 8px;
 }
 
-#map {
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 0 0 5px #ddd;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+.button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    line-height: .8;
+    font-weight: 800;
 }
 
 /* ---FONT STYLES--- */

@@ -45,10 +45,11 @@ h2 {
 }
 
 h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
     line-height: .8;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 p {

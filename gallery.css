@@ -176,10 +176,11 @@ padding-left: 8px;
 }
 
 .button {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
-    line-height: .8;
-    font-weight: 800;
+    font-family: 'Josefin Slab', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 /* ---IMAGE STYLES---*/

@@ -5,13 +5,13 @@ html {
     }
 
 body {
+    background-color:#F0F0F0;
     margin:auto;
     height:100%;
     padding:0;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    background-color:#F0F0F0;
     font-weight: 200;
 }
 
@@ -21,6 +21,12 @@ ul, ol {
 
 header {
     height:100%;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    width: 100%;
 }
 
 h1 {
@@ -50,6 +56,8 @@ p {
     font-size: 18px;
     line-height: 1.5;
     font-weight:200;
+    margin:0;
+    padding:0;
 }
 
 hr {
@@ -115,79 +123,8 @@ nav li {
     text-align:center;
 }
 
-/* FOOTER STYLES */
-
-footer {
-    background-color:#F0F0F0;
-    text-align: center;
-    color: #000;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.footerMenu ul {
-    display: table;
-    width: 100%;
-    list-style: none;
-}
-
-.footerMenu ul li {
-    display: table-cell;
-}
-
-#contact {
-    vertical-align: middle;
-    width: 33.3%;
-}
-
-.hover:hover {
-    color:#addfa6;
-    transition: all 0.3s ease-out 0s;
-}
-
-img.hover:hover{
-    color:#addfa6;
-    transition: all 0.3s ease-out 0s;
-}
-
-#logo {
-    text-align:center;
-    vertical-align: middle;
-    width:33.3%;
-}
-
-#signup {
-    vertical-align: middle;
-    width:33.3%;
-}
-
-#mc_embed_signup{
-padding-top:30px;
-padding: 3px;
-width: 150px;
-background-color: #f0f0f0;
-font-family: 'Josefin Slab', serif;
-text-transform: uppercase;
-letter-spacing: 2px;
-font-size: 9px;
-padding-left: 8px;
-}
-
-.button {
-    font-family: 'Josefin Slab', serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 1.5;
-    font-weight: 400;
-}
-
 /* ---IMAGE STYLES---*/
 
-li {
-
-}
 .centered {
     text-align: center;
 }
@@ -306,4 +243,97 @@ ul.rig.columns-4 li {
         width: 100% !important; /* over-ride all li styles */
         margin: 0 0 20px;
     }
+
+/* FOOTER STYLES */
+
+#footer {
+    background-color:#F0F0F0;
+    text-align: center;
+    color: #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 75%;
+    margin: 30px auto;
+
 }
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+
+a:hover {
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
+}
+
+.footerSection {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+#footerIcons {
+    width: 175px;
+    margin: auto;
+}
+
+.footerIcon {
+    float: left;
+    margin-right: 15px;
+
+}
+
+.footerIcon a {
+    background-position: 0 0;
+    width: 41px;
+    height: 50px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.footerIcon a:hover {
+    background-position: 0 -50px;
+    transition: all 0.3s ease-out 0s;
+}
+
+.hover:hover {
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
+}
+
+img.hover:hover{
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
+}
+
+input {
+    margin: 5px 0;
+}
+
+#mc_embed_signup {
+padding-top: 30px;
+padding: 3px;
+width: 150px;
+background-color: #f0f0f0;
+font-family: 'Josefin Slab', serif;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 9px;
+padding-left: 8px;
+margin: auto;
+}
+
+#mc-embedded-subscribe {
+    font-family: 'Josefin Slab', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 10px 0;
+    height: 25px;
+}
+

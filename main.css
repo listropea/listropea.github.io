@@ -23,6 +23,12 @@ header {
     height:100%;
 }
 
+.clear {
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size:24pt;
@@ -58,6 +64,8 @@ p {
     font-size: 18px;
     line-height: 1.5;
     font-weight:200;
+    margin:0;
+    padding:0;
 }
 
 hr {
@@ -65,11 +73,6 @@ hr {
     border-bottom: 1px dotted #fff;
     margin: 25px 0;
     clear: both;
-}
-
-a {
-    text-decoration:none;
-    color:#e5b996;
 }
 
 /* NAV */
@@ -196,17 +199,15 @@ background-size: cover;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    display:inline-block;
-    float:right;
+    /*display:inline-block;*/
+    float: right;
     width: 50%;
-    height:350px;
+    height: 350px;
 }
 
 .textLeft {
-    display:inline-block;
-    margin-left: 20px;
-    padding-left: 20px;
-    width:33%;
+    float: left;
+    width:45%;
 }
 
 /* Styling for Menu */
@@ -230,7 +231,7 @@ div.col {
 
 /* FOOTER STYLES */
 
-footer {
+#footer {
     background-color:#F0F0F0;
     text-align: center;
     color: #000;
@@ -238,21 +239,50 @@ footer {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    width: 75%;
+    margin: 30px auto;
+
 }
 
-.footerMenu ul {
-    display: table;
-    width: 100%;
-    list-style: none;
+a {
+    text-decoration:none;
+    color:#000;
 }
 
-.footerMenu ul li {
-    display: table-cell;
+a:hover {
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
 }
 
-#contact {
-    vertical-align: middle;
-    width: 33.3%;
+.footerSection {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+#footerIcons {
+    width: 175px;
+    margin: auto;
+}
+
+.footerIcon {
+    float: left;
+    margin-right: 15px;
+
+}
+
+.footerIcon a {
+    background-position: 0 0;
+    width: 41px;
+    height: 50px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.footerIcon a:hover {
+    background-position: 0 -50px;
+    transition: all 0.3s ease-out 0s;
 }
 
 .hover:hover {
@@ -265,19 +295,12 @@ img.hover:hover{
     transition: all 0.3s ease-out 0s;
 }
 
-#logo {
-    text-align:center;
-    vertical-align: middle;
-    width:33.3%;
+input {
+    margin: 5px 0;
 }
 
-#signup {
-    vertical-align: middle;
-    width:33.3%;
-}
-
-#mc_embed_signup{
-padding-top:30px;
+#mc_embed_signup {
+padding-top: 30px;
 padding: 3px;
 width: 150px;
 background-color: #f0f0f0;
@@ -286,14 +309,17 @@ text-transform: uppercase;
 letter-spacing: 2px;
 font-size: 9px;
 padding-left: 8px;
+margin: auto;
 }
 
-.button {
+#mc-embedded-subscribe {
     font-family: 'Josefin Slab', serif;
     font-size: 14px;
     text-transform: uppercase;
     line-height: 1.5;
     font-weight: 400;
+    padding: 10px 0;
+    height: 25px;
 }
 
 /* ---FONT STYLES--- */

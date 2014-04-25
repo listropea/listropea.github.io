@@ -323,6 +323,104 @@ margin: auto;
     height: 25px;
 }
 
+/*Our Mobile Styles*/
+
+@media screen and (max-width: 480px) {
+
+header {
+    height:50%;
+}
+
+/* NAV */
+
+/* Make Nav Sticky */
+#nav_container {
+    background-image: url('images/navtexture.jpg');
+    height: 60px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav{
+    line-height: 20px;
+    margin: auto;
+    width: 100%;
+ }
+
+/* END NAV STYLES */
+
+#learn {
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#find {
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.textLeft {
+    float: none;
+    width:100%;
+}
+
+#menu {
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.hiddenMobile {
+    display: none;
+}
+
+#menu ul{
+    display: none;
+}
+
+     .box {
+        float: none;
+        width: auto;
+        padding: 10px;
+        border: none;
+        border-top: 1px solid;
+     }
+
+    .box h2 {
+        margin: .5em 0;
+    }
+
+}
+
 /* ---FONT STYLES--- */
 /*font-family: 'Josefin Sans', sans-serif;
 font-family: 'Josefin Slab', serif;

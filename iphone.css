@@ -1,0 +1,98 @@
+    /*Our Mobile Styles*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+/* NAV */
+#nav_container {
+    background-image: url('images/navtexture.jpg');
+    height: 60px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav{
+    line-height: 20px;
+    margin: auto;
+    width: 100%;
+ }
+/* END NAV STYLES */
+
+#learn {
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#find {
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.textLeft {
+    float: none;
+    width:100%;
+}
+
+/* Styling for Menu */
+
+#menu {
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+div.menu {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+}
+
+div.col {
+    float: left;
+    width: 33%;
+}
+
+/* END MENU (Taste) STYLING */
+
+h1 {
+    font-size: 20px;
+}
+
+.hiddenMobile {
+    display: none;
+}
+
+#menu ul{
+    display: none;
+}
+
+}

@@ -33,12 +33,6 @@ header {
     height:100%;
 }
 
-.clear {
-    clear: both;
-    height: 1px;
-    width: 100%;
-}
-
 h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size:24pt;

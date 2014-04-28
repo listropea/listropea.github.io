@@ -2,6 +2,17 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
+body {
+    background-color:#F0F0F0;
+    margin:auto;
+    height:100%;
+    padding:0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
 /* NAV */
 #nav_container {
     background-image: url('images/navtexture.jpg');
@@ -17,7 +28,22 @@
     margin: auto;
     width: 100%;
  }
+
 /* END NAV STYLES */
+
+/* BANNER IMG */
+
+#banner {
+background-image: url('images/piespetalsbanner.png');
+display:block;
+background-position: bottom center;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+background-size: cover;
+}
+
+/* These are the information sections*/
 
 #learn {
     width:100%;

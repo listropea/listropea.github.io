@@ -1,8 +1,18 @@
     /*Our Mobile Styles*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
-html {
-    height:100%;
+/* GENERAL */
+
+h1 {
+    font-size: 20px;
+}
+
+.hiddenMobile {
+    display: none;
+}
+
+#menu ul{
+    display: none;
 }
 
 body {
@@ -56,7 +66,6 @@ h4 {
     font-size: 20px;
     line-height: 1.5;
     font-weight: 800;
-
 }
 
 p {
@@ -89,22 +98,6 @@ hr {
     margin: auto;
     width: 100%;
  }
-
- nav a {
-    font-family: 'Josefin Slab', serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style: none;
-    font-size: 24px;
-    line-height: 1;
-    color: black;
-    z-index:40;
-}
-
-nav a:hover {
-    color:#addfa6;
-    transition: all 0.3s ease-out 0s;
-}
 
 nav ul {
     list-style: none;
@@ -202,19 +195,6 @@ div.col {
 
 /* END MENU (Taste) STYLING */
 
-/* GENERAL */
-
-h1 {
-    font-size: 20px;
-}
-
-.hiddenMobile {
-    display: none;
-}
-
-#menu ul{
-    display: none;
-}
 
 /* FOOTER STYLES */
 
@@ -267,16 +247,22 @@ input {
     margin: 5px 0;
 }
 
+/* Instagram */
+
 #instagram {
+    border:none;
+    overflow: none;
+    width: 100%;
     text-align:center;
     margin-bottom: -40px;
     padding-bottom: 5px;
 }
 
+/* NEWSLETTER SIGNUP */
+
 #mc_embed_signup {
 padding-top: 30px;
 padding: 3px;
-width: 150px;
 background-color: #f0f0f0;
 font-family: 'Josefin Slab', serif;
 text-transform: uppercase;
@@ -294,17 +280,6 @@ margin: auto;
     font-weight: 400;
     padding: 10px 0;
     height: 25px;
-}
-
-/* Instagram */
-
-#instagram {
-    border:none;
-    overflow: none;
-    width: 100%;
-    text-align:center;
-    margin-bottom: -40px;
-    padding-bottom: 5px;
 }
 
 }

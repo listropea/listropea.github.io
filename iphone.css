@@ -147,19 +147,19 @@ a {
 }
 
 .footerSection {
-    width: 30%;
-    float: left;
-    margin-right: 20px;
-    margin-bottom:25px;
+    width: 100%;
+    float: none;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 
 #footerIcons {
-    width: 100%;
+    width: 20%;
     margin: auto;
 }
 
 .footerIcon {
-    float: left;
+    float: none;
     margin-right: 15px;
 
 }
@@ -181,6 +181,7 @@ input {
 
 #wufoo-m1yv1qug02r5x7l {
 width: 100%;
+height: auto;
 padding-top:0px;
 margin:20px 20px 0px 20px;
 padding: 5px 20px 5px 20px;

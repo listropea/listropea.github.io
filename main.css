@@ -1,8 +1,4 @@
 /* General Styles */
-
-@media only screen and (min-width : 1224px) {
-
-
 html {
     height:100%;
 }
@@ -329,8 +325,6 @@ margin: auto;
     font-weight: 400;
     padding: 10px 0;
     height: 25px;
-}
-
 }
 
 /* ---FONT STYLES--- */

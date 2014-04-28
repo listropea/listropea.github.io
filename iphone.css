@@ -2,6 +2,10 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
+html {
+    height:100%;
+}
+
 body {
     background-color:#F0F0F0;
     margin:auto;
@@ -10,6 +14,66 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5;
     font-weight: 200;
+}
+
+ul, ol {
+    padding:0;
+}
+
+header {
+    height:100%;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:24pt;
+    font-weight: 400;
+    margin: 0 0 20px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #bbb;
+}
+
+h2 {
+    font-family: 'Josefin Slab', serif;
+    font-size:18pt;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: .8;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 800;
+
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight:200;
+    margin:0;
+    padding:0;
+}
+
+hr {
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #fff;
+    margin: 25px 0;
+    clear: both;
 }
 
 /* NAV */
@@ -27,9 +91,41 @@ body {
     width: 100%;
  }
 
+ nav a {
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    line-height: 1;
+    color: black;
+    z-index:40;
+}
+
+nav a:hover {
+    color:#addfa6;
+    transition: all 0.3s ease-out 0s;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left:40px;
+    margin-right:40px;
+    vertical-align: text-bottom;
+}
+
 /* END NAV STYLES */
 
 /* BANNER IMG */
+
+#wrap {
+    margin:auto;
+    width:80%;
+}
 
 #banner {
 background-image: url('images/piespetalsbanner.png');
@@ -119,6 +215,86 @@ h1 {
 
 #menu ul{
     display: none;
+}
+
+/* FOOTER STYLES */
+
+#footer {
+    background-color:#F0F0F0;
+    text-align: center;
+    color: #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 30px auto;
+    margin-bottom:40px;
+}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+
+.footerSection {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom:25px;
+}
+
+#footerIcons {
+    width: 100%;
+    margin: auto;
+}
+
+.footerIcon {
+    float: left;
+    margin-right: 15px;
+
+}
+
+.footerIcon a {
+    background-position: 0 0;
+    width: 10px;
+    height: 50px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+input {
+    margin: 5px 0;
+}
+
+#instagram {
+    text-align:center;
+    margin-bottom: -40px;
+    padding-bottom: 5px;
+}
+
+#mc_embed_signup {
+padding-top: 30px;
+padding: 3px;
+width: 150px;
+background-color: #f0f0f0;
+font-family: 'Josefin Slab', serif;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 9px;
+padding-left: 8px;
+margin: auto;
+}
+
+#mc-embedded-subscribe {
+    font-family: 'Josefin Slab', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 10px 0;
+    height: 25px;
 }
 
 /* Instagram */

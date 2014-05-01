@@ -178,12 +178,30 @@ input {
 
 /* ORDER PAGE STYLES */
 
+#pricing {
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
 #wufoo-m1yv1qug02r5x7l {
-width: 100%;
-height: auto;
-padding-top:0px;
-margin:20px 20px 0px 20px;
-padding: 5px 20px 5px 20px;
+    margin:20px 20px 0px 20px;
+    padding: 5px 20px 5px 20px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 

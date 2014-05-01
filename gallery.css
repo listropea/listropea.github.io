@@ -1,8 +1,23 @@
+/* PRICING */
+
+#pricing {
+    margin:100px 40px 0px 40px;
+    padding:40px;
+    background-color:#fff;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0 0 5px #ddd;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
 /*FORM STYLES*/
 
 #wufoo-m1yv1qug02r5x7l {
     font-family:'Flamenco', cursive;;
-    margin: 100px 40px 0;
+    margin:40px 40px 0px 40px;
     padding:40px;
     background-color:#fff;
     border-radius: 4px;

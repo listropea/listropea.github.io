@@ -29,6 +29,9 @@
     -webkit-box-sizing: border-box;
 }
 
+#message {
+    width:20px;
+}
 /* General Styles */
 
 html {

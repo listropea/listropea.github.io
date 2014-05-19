@@ -1,0 +1,22 @@
+<div id="learn" class="textLeftlearn">
+    <h2><a name="learn">Learn</a></h2>
+
+            <span class="hiddenMobile">
+                <div id="photos">
+                    <img src="images/me.png" height="150px" width="150px">
+                    <img src="images/flowers1.png" height="150px" width="150px">
+                    <img src="images/pie1.png" height="150px" width="150px">
+                    <img src="images/mom.png" height="150px" width="150px">
+                </div>
+            </span>
+
+        <p>Hi! My name is Lissy, I really like pies, and flowers. Hence: PIES + PETALS.
+        I make the pies and my greatest friend (bonus: she's my mother too!) of <a href="http://www.leroyfrenchflowers.com">LeRoy French Flowers</a> handcrafts seasonal bouquets.
+
+            <h1>Pies for your tastebuds, flowers for the table.</h1>
+
+        My pies are made with natural and organic ingredients, because they taste better.
+        I scope out the best local vendors and scoop up the sweetest fruits to bring to your city.
+
+        <h1>Sugar pie, honey bunch, you know that I love you.</h1></p>
+</div>

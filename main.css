@@ -165,6 +165,7 @@ background-size: cover;
     -webkit-box-sizing: border-box;
 }
 
+
 #menu {
     margin:40px 40px 0px 40px;
     padding:40px;
@@ -181,12 +182,11 @@ background-size: cover;
 /* Styling for Learn */
 
 #photos {
-    display:inline-block;
-    float:right;
-    width:30%;
-    margin-top:-60px;
-    padding:20px;
+    clear:both;
+        text-align:center;
 }
+
+
 
 /* Styling for Locate map and text */
 
